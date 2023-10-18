@@ -3,7 +3,6 @@ from .views import hello, page_view, PageListView, PageCreateView, PageDetailVie
 from .models import Page
 from .views import review_view, ReviewListView, ReviewCreateView, ReviewDetailView, ReviewUpdateView, ReviewDeleteView
 from .views import PostListView, PostCreateView, PostDetailView, PostUpdateView, PostDeleteView
-
 from .views import PostsListView, PostsCreateView, PostsDetailView, PostsUpdateView, PostsDeleteView
 
 urlpatterns = [
